@@ -1,5 +1,4 @@
 <?php
-echo 'chao cac ban';
 $link = mysqli_connect('localhost','root', '', 'dulieu', 3309) or die('could not connect: '.mysqli_error());
 $db_selected = mysqli_select_db($link, 'dulieu');
 $rs = mysqli_query($link,"SELECT * FROM phongban");
